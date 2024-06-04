@@ -1,0 +1,24 @@
+.pan {
+    background-color: #e0bc84;
+    height: 60px;
+    width: 500px;
+    margin-left: 22px;
+}
+
+#pan1 {
+    border-radius: 60px 60px 20px 20px;
+    border-bottom: 10px solid #b8946c;
+}
+
+#pan2 {
+    border-radius: 20px 20px 60px 60px;
+    border-top: 10px solid #b8946c;
+}
+
+#salchicha {
+    height: 70px;
+    width: 550px;
+    background-color: #a82c2c;
+    border-radius: 35px;
+}
+

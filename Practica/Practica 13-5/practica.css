@@ -1,0 +1,43 @@
+body {
+    background-color: darksalmon;
+}
+
+#att1:hover {
+    color: aquamarine;
+    background-color: azure;
+}
+
+#att2:active {
+    color: brown;
+    background-color: chocolate;
+}
+
+#att3::selection {
+    background-color: plum;
+}
+
+#att4::selection {
+    background-color: plum;
+    color: hotpink;
+}
+
+#att4::first-letter {
+    font-size: 50px;
+    color: bisque;
+}
+
+#att5:focus {
+    background-color: royalblue;
+    color: aquamarine;
+}
+#att5:hover {
+    background-color: bisque;
+    color: khaki;
+}
+
+#att6 {
+    border: 5px solid black;
+    padding: 25px;
+    margin: 50px;
+    text-align: center;
+}

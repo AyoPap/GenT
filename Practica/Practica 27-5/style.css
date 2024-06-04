@@ -1,0 +1,45 @@
+.profile {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "info skills"
+    "footer footer";
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 80px 80px 80px;
+    grid-gap: 15px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: #f55c73;
+    border: 5px solid black;
+    border-radius: 75px;
+    align-content: center;
+}
+
+.info {
+    grid-area: info;
+    background-color: #f57c73;
+    border: 5px solid black;
+    border-radius: 75px;
+    align-content: center;
+}
+
+.skills {
+    grid-area: skills;
+    background-color: #f68c70;
+    border: 5px solid black;
+    border-radius: 75px;
+    align-content: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #f6bc66;
+    border: 5px solid black;
+    border-radius: 75px;
+    align-content: center;
+}

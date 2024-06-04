@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 700px 200px;
+    grid-template-rows: 300px 400px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: crimson;
+    border: solid 5px black;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cinco {
+    background-color: burlywood;
+    font-style: italic;
+    font-size: 100px;
+}
+
+#uno {
+    border: dashed 10px coral;
+}

@@ -1,0 +1,26 @@
+.carnivoros {
+    background-color: darkred;
+}
+
+.herbivoros {
+    background-color: lightgreen;
+}
+
+#trex {
+    font-size: 24px;
+    color: coral;
+}
+
+#tric {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.volador {
+    text-shadow: 5px 5px lightgray;
+}
+
+.acuatico {
+    color: blue;
+    font-style: italic;
+}
