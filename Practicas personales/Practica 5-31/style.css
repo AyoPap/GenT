@@ -1,0 +1,85 @@
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.item {
+    height: 150px;
+    width: 300px;
+    border: solid black 3px;
+    align-content:center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+#div1 {
+    background: linear-gradient(to bottom, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+}
+
+#div2 {
+    background-color: #ee5d6c;
+    transform: translate(-120px, 15px);
+}
+
+#div3 {
+    background-color: #eeaf61;
+    transform: rotate(56deg);
+}
+
+#div4 {
+    background-color: #ce4993;
+    transform: scale(2.1, 0.5);
+}
+
+#div5 {
+    background-color: #6a0d83;
+    transform: skew(17deg, 30deg);
+}
+
+#div6 {
+    background-color: bisque;
+    transition: all 3s;
+}
+
+#div6:hover {
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+#div6:active {
+    font-size: 40px;
+}
+
+ /* ESTOY FASCINADO CON ESTO ME ENCANTA QUE DIVERTIDOOOO */
+ 
+ @keyframes example {
+    0% {
+        background-color: brown;
+    }
+    25% {
+        background-color: yellow;
+        width: 800px;
+    }
+    50% {
+        background-color: green;
+        width: 100px;
+        height: 250px;
+    }
+    100% {
+        background-color: aqua;
+        width: 300px;
+        height: 150px;
+    }
+ }
+ 
+ #div7 {
+    background-color: brown;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+ }
