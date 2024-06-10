@@ -1,0 +1,23 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    margin: 1.4%;
+}
+
+#titulo {
+    margin-left: 1.4%;
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    border-bottom: red solid 2px;
+    width: 15%;
+    padding-bottom: 25px;
+}
