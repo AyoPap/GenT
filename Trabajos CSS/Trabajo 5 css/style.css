@@ -1,0 +1,138 @@
+header {
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 1.5%;
+    background-color:beige;
+}
+
+#pfp {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    border: black solid 3px;
+}
+
+section {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 4.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 300px 300px 300px;
+        justify-content: center;
+    }
+
+    .portfolio-proyectos {
+        border: 3px solid black;
+        border-radius: 30px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 300px 300px 300px;
+        justify-content: center;
+    }
+
+    .portfolio-proyectos {
+        border: 3px solid black;
+        border-radius: 30px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 300px 300px;
+        justify-content: center;
+    }
+
+    .portfolio-proyectos {
+        border: 3px solid black;
+        border-radius: 30px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 300px;
+        justify-content: center;
+    }
+
+    .portfolio-proyectos {
+        border: 3px solid black;
+        border-radius: 30px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
+#aboutme {
+    background-color: beige;
+    font-size: 125%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#contact {
+    font-size: 125%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#enviar {
+    background-color: beige;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: beige;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+}
+
